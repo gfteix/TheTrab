@@ -21,7 +21,11 @@ Trabalho realizado no primeiro bimestre de 2019 no curso técnico em informátic
 
   <img src="https://github.com/gf-teixeira/TheTrab/blob/main/screenshots/pgadmin1.PNG">
 
-4 - abra o projeto no netbeans e o execute
+4 - abra o projeto no Netbeans, no arquivo src/java/model/Banco.java altere a seguinte linha com o seu usuário e senha do postgres:
+ 
+ `conexao=DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/LPB","seu-usuario","sua-senha");`
+
+5 - execute o projeto no Netbeans
 
 ## Tecnologias
 
